@@ -1,0 +1,76 @@
+/*
+css created by #161123 please do not remove credit or resell
+*/
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image:url("https://i.ibb.co/S4442wTY/6ad1a6d0c621dabf766d29f9027526a4.jpg");
+  background-color: black ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@keyframes wolfMove {
+  from{
+    background-position: 55% center;
+  }
+to {
+  background-position: 45%#42445A center;
+}
+}
+
+/* Make the main page area show the cat background */
+#main {
+  background: transparent !important;
+  
+}
+/* visable CSS credit created by #161123*/
+body::after {
+  content: "CSS created by Wolfwarrior13 #152825.pleese do not remove credit or resell";
+  position:fixed;
+  bottom:10px;
+  left:50%;
+  transform: translateX(-10%);
+  z-index: 9999;
+  color: white ;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  text-align: center;
+}
+
+ h1 {
+  color: white ;
+}
+
+.panel {
+  background: transparent !important;
+}
+.lion-box {
+  background: rgba(180, 140, 230, 0.7);
+  border:2px solid #c8a2e8;
+  box-shadow: 0 0 12px #c8a2e8;
+  border-radius: 15px;
+  color: white ;
+  padding: 20px;
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.lion-box h2 {
+  color: #e6ccff;
+  font-size: 28px;
+  margin-top: 0;
+}
+
+/* white star for gold beetles */
+img[src$="icon-beetles-gold.png"] {
+  content:
+url("https://ibb.co/Lh0W89Sk/pngtree-perfect-glowing-neon-white-star-png-image-10154682-2.jpg") !important;
+width: 20px !important;
+height: 20px !important;
+}
