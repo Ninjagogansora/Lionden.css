@@ -7,19 +7,20 @@ CSS created by Thegreatone1 #587610
 }
 
 body {
-  background:
-  url("https://i.ibb.co/7Jt1s5Xf/Screenshot-20260930-191949.jpg");
-  center fixed ! important;
+  background: url("https://i.ibb.co/7Jt1s5Xf/Screenshot-20260930-191949.jpg") center center fixed !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-color: black !important;
 }
-
 .main {
   background: transparent !important;
 }
 
-.lion-box {
+.container.main {
+  background: transparent !important;
+}
+
+.lion-box { 
   background: rgba( 0, 0, 0, 0.5);
   border: 2px solid white;
   border-radius: 15px;
