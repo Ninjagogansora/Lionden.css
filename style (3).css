@@ -20,6 +20,10 @@ body {
   background: transparent !important;
 }
 
+.col-md-9 { 
+  background: transparent !important;
+}
+
 .lion-box { 
   background: rgba( 0, 0, 0, 0.5);
   border: 2px solid white;
