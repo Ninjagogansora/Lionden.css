@@ -20,7 +20,7 @@ body {
   background: transparent !important;
 }
 
-.col-md-9 { 
+.col-md-9.col-xs-12 { 
   background: transparent !important;
 }
 
